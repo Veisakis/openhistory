@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <img src="../img/index.jpeg" alt="Χάρτης Ελλάδας" class="bot-image">
+    <img src="../img/index.jpeg" alt="Χάρτης Ελλάδας" class="bg">
     <hr>
     <?php
 
