@@ -8,6 +8,7 @@
   <body>
     <img src="../img/index.jpeg" alt="Χάρτης Ελλάδας" class="bg">
     <hr>
+    <div class="text-mid">
     <?php
 
     $path = "src";
@@ -17,11 +18,12 @@
       if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin")
       {
           $striped_file = str_replace(".html", "", $file);
-          echo "<a href='$path/$file'>$striped_file</a><br/>";
+          echo "<a href='$path/$file' style='text-decoration: none;'>$striped_file</a><br/>";
       }
     }
     closedir($dirop);
 
     ?>
+  </div>
   </body>
 </html>
