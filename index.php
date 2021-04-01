@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <img src="../img/index.jpeg" alt="Χάρτης Ελλάδας" class="">
+    <hr>
     <?php
 
     $path = "src";
