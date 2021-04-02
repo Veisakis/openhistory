@@ -19,6 +19,10 @@ body {
   text-align: center;
 }
 
+.text-quote{
+  font-size: small;
+}
+
 a:link, a:visited {
   background-color: transparent;
   color: white;
