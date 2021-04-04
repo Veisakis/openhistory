@@ -2,6 +2,10 @@ body {
   background-color: #8C7C6A;
 }
 
+.title{
+  color: #180A01;
+}
+
 .bot-image{
   display: block;
   margin-left: auto;
