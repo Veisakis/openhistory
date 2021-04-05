@@ -2,18 +2,24 @@ body {
   background-color: #8C7C6A;
 }
 
-.title{
-  color: #180A01;
+a:link, a:visited {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
 }
 
-.bot-image{
+a:hover, a:active {
+  color: #EBC79A;
+}
+
+.bg{
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.bg{
-  width: 50%;
+.bot-image{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -25,14 +31,4 @@ body {
 
 .text-quote{
   font-size: small;
-}
-
-a:link, a:visited {
-  background-color: transparent;
-  color: white;
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  color: #EBC79A;
 }
