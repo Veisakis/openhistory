@@ -10,18 +10,39 @@
     <hr>
     <div class="text-mid">
     <?php
-
+	
     $path = "src";
+    $articles_name = array();
+    $articles_value = array();
     $dirop = opendir($path);
 
     while (($file = readdir($dirop)) !== false) {
       if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin")
       {
           $striped_file = str_replace(".html", "", $file);
-          echo "<a href='$path/$file' style='text-decoration: none;'>$striped_file</a><br/>";
-      }
+          $articles_name[] = $striped_file;
+        
+	        $divided = explode(' - ', $striped_file);
+        
+          if (strpos($art_val[0],'πΧ') == true) {
+            $date_code = explode(' ',$divided[0]);  
+            $articles_value[] = number_format('-' . $date_code[0]);
+
+          }
+          else {
+            $articles_value[] = number_format($divided[0]);
+          }
+       }
     }
+    
     closedir($dirop);
+
+    $articles = array_combine($articles_name,$articles_value);	
+    asort($articles);
+
+    foreach ($articles as $article => $val) {
+          echo "<a href='$path/$article.html' style='text-decoration: none;'>$article</a><br/>";
+    }
 
     ?>
   </div>
