@@ -22,9 +22,9 @@
           $striped_file = str_replace(".html", "", $file);
           $articles_name[] = $striped_file;
         
-	        $divided = explode(' - ', $striped_file);
+	  $divided = explode(' - ', $striped_file);
         
-          if (strpos($art_val[0],'πΧ') == true) {
+          if (strpos($divided[0],'πΧ') == true) {
             $date_code = explode(' ',$divided[0]);  
             $articles_value[] = number_format('-' . $date_code[0]);
 
