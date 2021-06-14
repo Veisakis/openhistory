@@ -33,3 +33,8 @@ a:hover, a:active {
 .text-quote{
   font-size: small;
 }
+
+.footer{
+  font-size: small;
+  font-style: italic;
+}
