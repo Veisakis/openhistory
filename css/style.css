@@ -21,6 +21,7 @@ hr {
 	width: 70%;
 	float: center;
 	margin-left: 15%;
+	border-radius: 5px;
 }
 
 .bot-image{
@@ -58,6 +59,7 @@ hr {
 
 .rss {
 	float: right;
+	border-radius: 5px;
 }
 
 ul.byzantine-maps li {
