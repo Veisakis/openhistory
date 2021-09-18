@@ -4,19 +4,23 @@ body {
 
 a:link, a:visited {
   background-color: transparent;
-  color: white;
+  color: khaki;
   text-decoration: none;
 }
 
 a:hover, a:active {
-  color: #EBC79A;
+  color: gold;
+}
+
+hr {
+	border: 1px solid darkgoldenrod;   
 }
 
 .bg{
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+	width: 70%;
+	float: center;
+	margin-left: 15%;
 }
 
 .bot-image{
@@ -28,15 +32,46 @@ a:hover, a:active {
 .text-mid{
   text-align: center;
   margin: 10px;
+	margin-bottom: 300px;
 }
 
 .text-quote{
   font-size: small;
 }
 
-.footer{
+.footer {
   font-size: small;
   font-style: italic;
   text-align: center;
   margin: 20px;
 }
+
+.map-title {
+	text-align: center;
+	padding-bottom: 10px;
+	color: maroon;
+}
+
+.map-image {
+	padding: 30px;	
+}
+
+.rss {
+	float: right;
+}
+
+ul.byzantine-maps li {
+	display: inline-block;
+	text-align: center;
+}
+
+#map-caption {
+	text-align: center;
+}
+
+#map-section {
+  display: block;
+	width: all;
+	background-color: tan;
+}
+
