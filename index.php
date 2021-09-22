@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Ιστορία</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <section>
-    	<img src="../img/kontoglou.jpeg" alt="Χάρτης Ελλάδας" class="bg">
-	<a href="rss.xml"><img src="../img/rss.jpeg" alt="rss" class="rss"></a>
+    	<img src="img/kontoglou.jpeg" alt="Χάρτης Ελλάδας" class="bg">
+	<a href="rss.xml"><img src="img/rss.jpeg" alt="rss" class="rss"></a>
     </section>
     <hr>
     <section>

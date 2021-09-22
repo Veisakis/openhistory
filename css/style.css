@@ -1,18 +1,18 @@
-body {
+body{
   background-color: #8C7C6A;
 }
 
-a:link, a:visited {
+a:link, a:visited{
   background-color: transparent;
   color: khaki;
   text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover, a:active{
   color: gold;
 }
 
-hr {
+hr{
   border: 1px solid darkgoldenrod;   
 }
 
@@ -24,19 +24,26 @@ hr {
   border-radius: 5px;
 }
 
+.tag-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
 .bot-image{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.titles {
+.titles{
   text-align: center;
   margin: 10px;
   margin-bottom: 300px;
 }
 
-.text-mid {
+.text-mid{
   text-align: center;
   margin: 10px;
 }
@@ -45,39 +52,46 @@ hr {
   font-size: small;
 }
 
-.footer {
+.header{}
+
+.footer{
   font-size: small;
   font-style: italic;
   text-align: center;
   margin: 20px;
 }
 
-.map-title {
+.map-title{
   text-align: center;
   padding-bottom: 10px;
   color: maroon;
 }
 
-.map-image {
+.map-image{
   padding: 30px;	
 }
 
-.rss {
+.rss{
   float: right;
   border-radius: 5px;
 }
 
-ul.byzantine-maps li {
+ul.byzantine-maps li{
   display: inline-block;
   text-align: center;
 }
 
-#map-caption {
+#map-caption{
   text-align: center;
 }
 
-#map-section {
+#map-section{
   display: block;
   width: all;
   background-color: tan;
+}
+
+#taghr{
+  border: 1px solid darkgoldenrod;   
+	width: 40%;
 }
