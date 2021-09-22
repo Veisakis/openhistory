@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-		<section>
+    <section>
     	<img src="../img/kontoglou.jpeg" alt="Χάρτης Ελλάδας" class="bg">
-			<a href="rss.xml"><img src="../img/rss.jpeg" alt="rss" class="rss"></a>
- 		</section>
-		<hr>
-		<section>
+	<a href="rss.xml"><img src="../img/rss.jpeg" alt="rss" class="rss"></a>
+    </section>
+    <hr>
+    <section>
     <div class="titles">
     <?php
 	
@@ -47,11 +47,10 @@
     foreach ($articles as $article => $val) {
           echo "<a href='$path/$article.html' style='text-decoration: none;'>$article</a><br/>";
     }
-
-    ?>
+  ?>
   </div>
-	</section>
-	<section id="map-section">
+  </section>
+  <section id="map-section">
 	<ul class="byzantine-maps">
 	<li>
 		<figure>
@@ -72,6 +71,6 @@
 		</figure>
 	</li>	
 	<h4 class="map-title">Με κίτρινο η εδαφική έκταση της Βυζαντινής Αυτοκρατορίας, κατά τη διακυβέρνηση τριών εμβληματικών αυτοκρατόρων της.</h4>
-	</section>
+  </section>
   </body>
 </html>
