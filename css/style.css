@@ -13,15 +13,15 @@ a:hover, a:active {
 }
 
 hr {
-	border: 1px solid darkgoldenrod;   
+  border: 1px solid darkgoldenrod;   
 }
 
 .bg{
   display: inline-block;
-	width: 70%;
-	float: center;
-	margin-left: 15%;
-	border-radius: 5px;
+  width: 70%;
+  float: center;
+  margin-left: 15%;
+  border-radius: 5px;
 }
 
 .bot-image{
@@ -33,7 +33,7 @@ hr {
 .titles {
   text-align: center;
   margin: 10px;
-	margin-bottom: 300px;
+  margin-bottom: 300px;
 }
 
 .text-mid {
@@ -49,36 +49,35 @@ hr {
   font-size: small;
   font-style: italic;
   text-align: center;
-	margin: 20px;
+  margin: 20px;
 }
 
 .map-title {
-	text-align: center;
-	padding-bottom: 10px;
-	color: maroon;
+  text-align: center;
+  padding-bottom: 10px;
+  color: maroon;
 }
 
 .map-image {
-	padding: 30px;	
+  padding: 30px;	
 }
 
 .rss {
-	float: right;
-	border-radius: 5px;
+  float: right;
+  border-radius: 5px;
 }
 
 ul.byzantine-maps li {
-	display: inline-block;
-	text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 #map-caption {
-	text-align: center;
+  text-align: center;
 }
 
 #map-section {
   display: block;
-	width: all;
-	background-color: tan;
+  width: all;
+  background-color: tan;
 }
-
