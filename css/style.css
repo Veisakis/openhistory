@@ -3,8 +3,8 @@ body{
 }
 
 a:link, a:visited{
-  background-color: transparent;
   color: khaki;
+  background-color: transparent;
   text-decoration: none;
 }
 
@@ -17,18 +17,18 @@ hr{
 }
 
 .bg{
-  display: inline-block;
   width: 70%;
   float: center;
   margin-left: 15%;
   border-radius: 5px;
+  display: inline-block;
 }
 
 .tag-image{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 .bot-image{
@@ -38,33 +38,31 @@ hr{
 }
 
 .titles{
-  text-align: center;
   margin: 10px;
   margin-bottom: 300px;
+  text-align: center;
 }
 
 .text-mid{
-  text-align: center;
   margin: 10px;
+  text-align: center;
 }
 
 .text-quote{
   font-size: small;
 }
 
-.header{}
-
 .footer{
+  margin: 20px;
   font-size: small;
   font-style: italic;
   text-align: center;
-  margin: 20px;
 }
 
 .map-title{
+  color: maroon;
   text-align: center;
   padding-bottom: 10px;
-  color: maroon;
 }
 
 .map-image{
@@ -77,8 +75,8 @@ hr{
 }
 
 ul.byzantine-maps li{
-  display: inline-block;
   text-align: center;
+  display: inline-block;
 }
 
 #map-caption{
@@ -86,12 +84,12 @@ ul.byzantine-maps li{
 }
 
 #map-section{
-  display: block;
   width: all;
+  display: block;
   background-color: tan;
 }
 
 #taghr{
-  border: 1px solid darkgoldenrod;   
-	width: 40%;
+  width: 40%;
+  border: 1px solid darkgoldenrod;
 }
