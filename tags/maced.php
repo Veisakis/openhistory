@@ -7,7 +7,7 @@
   </head>
   <body>
     <section>
-      <img src="../img/tags/maced.jpeg" alt="" class="tag-image">
+      <img src="../img/tags/maced.jpeg" alt="Τέλλος Άγρας" class="tag-image">
     </section>
     <hr id="taghr">
     <div class="titles">
