@@ -16,7 +16,7 @@
     $articles_value = array();
     $output=null;
     $retval=null;
-    exec("grep tags ../src/* | grep 'Β Παγκόσμιος Πόλεμος'| cut -f1 | sed s/.$// | sed s/^.*src// | sed s/^.//", $output, $retval);
+    exec("grep -l 'tag:Β Παγκόσμιος Πόλεμος' | sed s/.$// | sed s/^.*src// | sed s/^.//", $output, $retval);
 	    
     foreach ($output as $out){
     	$striped_file = str_replace(".html", "", $out);

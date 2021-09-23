@@ -16,8 +16,8 @@
     $articles_value = array();
     $output=null;
     $retval=null;
-    exec("grep tags ../src/* | grep 'Επανάσταση'| cut -f1 | sed s/.$// | sed s/^.*src// | sed s/^.//", $output, $retval);
-	    
+    exec("grep -l 'tag:Επανάσταση' | sed s/.$// | sed s/^.*src// | sed s/^.//", $output, $retval);
+
     foreach ($output as $out){
     	$striped_file = str_replace(".html", "", $out);
     	$articles_name[] = $striped_file;
