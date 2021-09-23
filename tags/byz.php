@@ -7,7 +7,7 @@
   </head>
   <body>
     <section>
-      <img src="../img/tags/byz.jpeg" alt="" class="tag-image">
+      <img src="../img/tags/byz.jpeg" alt="Βασίλειος Βουλγαροκτόνος" class="tag-image">
     </section>
     <hr id="taghr">
     <div class="titles">
