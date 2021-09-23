@@ -70,7 +70,7 @@
 	</li>	
 	<h4 class="map-title">Με κίτρινο η εδαφική έκταση της Βυζαντινής Αυτοκρατορίας, κατά τη διακυβέρνηση τριών εμβληματικών αυτοκρατόρων της.</h4>
   </section>
-  <div class="titles"
+  <div class="titles">
   <section id="cat-section">
 	  <a href="tags/anc.php">Αρχαία Ελλάδα</a><br/>
 	  <a href="tags/byz.php">Βυζαντινή Αυτοκρατορία</a><br/>
