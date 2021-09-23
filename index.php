@@ -45,7 +45,7 @@
     asort($articles);
 
     foreach ($articles as $article => $val) {
-          echo "<a href='$path/$article.html' style='text-decoration: none;'>$article</a><br/>";
+          echo "<a href='$path/$article.html'>$article</a><br/>";
     }
   ?>
   </div>
@@ -74,6 +74,11 @@
   </section>
   <section id="cat-section">
 	  <a href="tags/anc.php">Αρχαία Ελλάδα</a><br/>
+	  <a href="tags/byz.php">Βυζαντινή Αυτοκρατορία</a><br/>
+	  <a href="tags/rev.php">Επανάσταση 1821</a><br/>
+	  <a href="tags/maced.php">Μακεδονικός Αγώνας</a><br/>
+	  <a href="tags/balkan.php">Βαλκανικοί Πόλεμοι</a><br/>
+	  <a href="tags/ww2.php">Β Παγκόσμιος Πόλεμος</a><br/>
   </section>
   </body>
 </html>
