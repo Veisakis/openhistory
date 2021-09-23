@@ -9,7 +9,7 @@
     <section>
       <img src="../img/tags/rev.jpeg" alt="Όρκος Φ.Ε." class="tag-image">
     </section>
-    <hr id='taghr'>
+    <hr id="taghr">
     <div class="titles">
     <?php
     $articles_name = array();
