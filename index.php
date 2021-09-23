@@ -14,7 +14,6 @@
     <section>
     <div class="titles">
     <?php
-	
     $path = "src";
     $articles_name = array();
     $articles_value = array();
@@ -38,7 +37,6 @@
           }
        }
     }
-    
     closedir($dirop);
 
     $articles = array_combine($articles_name,$articles_value);	
@@ -72,6 +70,7 @@
 	</li>	
 	<h4 class="map-title">Με κίτρινο η εδαφική έκταση της Βυζαντινής Αυτοκρατορίας, κατά τη διακυβέρνηση τριών εμβληματικών αυτοκρατόρων της.</h4>
   </section>
+  <div class="titles"
   <section id="cat-section">
 	  <a href="tags/anc.php">Αρχαία Ελλάδα</a><br/>
 	  <a href="tags/byz.php">Βυζαντινή Αυτοκρατορία</a><br/>
@@ -80,5 +79,6 @@
 	  <a href="tags/balkan.php">Βαλκανικοί Πόλεμοι</a><br/>
 	  <a href="tags/ww2.php">Β Παγκόσμιος Πόλεμος</a><br/>
   </section>
+  </div>
   </body>
 </html>
