@@ -9,7 +9,7 @@
     <section>
       <img src="../img/tags/byz.jpeg" alt="Βασίλειος Βουλγαροκτόνος" class="tag-image">
     </section>
-    <hr id="taghr">
+    <hr class="taghr">
     <div class="titles">
     <?php
     $articles_name = array();
