@@ -16,6 +16,11 @@ hr{
   border: 1px solid darkgoldenrod;   
 }
 
+.taghr{
+  width: 40%;
+  border: 1px solid darkgoldenrod;
+}
+
 .bg{
   width: 70%;
   float: center;
@@ -87,9 +92,4 @@ ul.byzantine-maps li{
   width: all;
   display: block;
   background-color: tan;
-}
-
-#taghr{
-  width: 40%;
-  border: 1px solid darkgoldenrod;
 }
