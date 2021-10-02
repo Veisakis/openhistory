@@ -9,7 +9,7 @@
     <section>
       <img src="../img/tags/ww2.jpeg" alt="Αποχαιρετισμός 1940" class="tag-image">
     </section>
-    <hr id="taghr">
+    <hr class="taghr">
     <div class="titles">
     <?php
     $articles_name = array();
