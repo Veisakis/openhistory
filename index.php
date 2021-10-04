@@ -24,11 +24,11 @@
       {
           $striped_file = str_replace(".html", "", $file);
           $articles_name[] = $striped_file;
-        
+
 	  $divided = explode(' - ', $striped_file);
-        
+
           if (strpos($divided[0],'πΧ') == true) {
-            $date_code = explode(' ',$divided[0]);  
+            $date_code = explode(' ',$divided[0]);
             $articles_value[] = number_format('-' . $date_code[0]);
 
           }
@@ -39,7 +39,7 @@
     }
     closedir($dirop);
 
-    $articles = array_combine($articles_name,$articles_value);	
+    $articles = array_combine($articles_name,$articles_value);
     asort($articles);
 
     foreach ($articles as $article => $val) {
@@ -67,11 +67,10 @@
 			<img src="img/maps/palaiologos1453.jpeg" alt="Ευρωπαϊκός χάρτης του 1453μ.Χ." class="map-image">
 			<figcaption id="map-caption"><i>Κωνσταντίνος IA' Παλαιολόγος (1405-1453)</i><figcaption>
 		</figure>
-	</li>	
+	</li>
 	<h4 class="map-title">Με κίτρινο η εδαφική έκταση της Βυζαντινής Αυτοκρατορίας, κατά τη διακυβέρνηση τριών εμβληματικών αυτοκρατόρων της.</h4>
   </section>
-  <div class="titles">
-  <hr class="taghr">
+  <div id="bottom-tags">
   <section id="cat-section">
 	  <a href="tags/anc.php">Αρχαία Ελλάδα</a><br/>
 	  <a href="tags/byz.php">Βυζαντινή Αυτοκρατορία</a><br/>

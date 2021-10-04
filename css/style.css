@@ -13,7 +13,7 @@ a:hover, a:active{
 }
 
 hr{
-  border: 1px solid darkgoldenrod;   
+  border: 1px solid darkgoldenrod;
 }
 
 .taghr{
@@ -22,9 +22,8 @@ hr{
 }
 
 .bg{
-  max-width: 660px;
-  float: center;
-  margin-left: 15%;
+  max-width: 70%;
+  vertical-align: middle;
   border-radius: 5px;
   display: inline-block;
 }
@@ -71,7 +70,7 @@ hr{
 }
 
 .map-image{
-  padding: 30px;	
+  padding: 30px;
 }
 
 .rss{
@@ -89,7 +88,24 @@ ul.byzantine-maps li{
 }
 
 #map-section{
-  width: all;
   display: block;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: tan;
+}
+
+#bottom-tags{
+  display: block;
+  max-width: 300px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 300px;
+  border: double darkgoldenrod;
+}
+
+#cat-section{
+  padding: 10px;
+  text-align: center;
 }
