@@ -91,5 +91,7 @@ ul.byzantine-maps li{
 #map-section{
   width: all;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: tan;
 }
