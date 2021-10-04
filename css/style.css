@@ -23,7 +23,8 @@ hr{
 
 .bg{
   max-width: 70%;
-  vertical-align: middle;
+  float: center;
+  margin-left: 15%;
   border-radius: 5px;
   display: inline-block;
 }
