@@ -43,8 +43,9 @@ hr{
 }
 
 .titles{
-  margin: 15px;
+  margin: 10px;
   margin-bottom: 300px;
+  padding: 10px;
   text-align: center;
 }
 
