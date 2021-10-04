@@ -6,7 +6,6 @@ a:link, a:visited{
   color: khaki;
   background-color: transparent;
   text-decoration: none;
-  padding: 5px;
 }
 
 a:hover, a:active{
@@ -44,7 +43,7 @@ hr{
 }
 
 .titles{
-  margin: 10px;
+  margin: 15px;
   margin-bottom: 300px;
   text-align: center;
 }
