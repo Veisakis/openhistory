@@ -22,7 +22,7 @@ hr{
 }
 
 .bg{
-  width: 70%;
+  max-width: 660px;
   float: center;
   margin-left: 15%;
   border-radius: 5px;
