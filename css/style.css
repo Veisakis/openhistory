@@ -6,7 +6,7 @@ a:link, a:visited{
   color: khaki;
   background-color: transparent;
   text-decoration: none;
-  border: 5px;
+  border: 8px;
 }
 
 a:hover, a:active{
