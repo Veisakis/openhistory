@@ -93,6 +93,7 @@ ul.byzantine-maps li{
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
   background-color: tan;
 }
 
