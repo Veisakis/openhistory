@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ιστορία</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/jpeg" href="img/drachma.jpeg">
+    <title>Ιστορία</title>
   </head>
   <body>
     <section>
