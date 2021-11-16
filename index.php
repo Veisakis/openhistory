@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Ιστορία</title>
     <link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" type="image/jpeg" href="img/drachma.jpeg">
   </head>
   <body>
     <section>
