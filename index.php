@@ -78,6 +78,7 @@
 	  <a href="tags/rev.php">Επανάσταση 1821</a><br/>
 	  <a href="tags/maced.php">Μακεδονικός Αγώνας</a><br/>
 	  <a href="tags/balkan.php">Βαλκανικοί Πόλεμοι</a><br/>
+	  <a href="tags/asia.php">Μικρασιατική Εκστρατεία</a><br/>
 	  <a href="tags/ww2.php">Β Παγκόσμιος Πόλεμος</a><br/>
   </section>
   </div>
